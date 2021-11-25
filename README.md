@@ -28,3 +28,4 @@ Enter file value:
 ^C
 Total phtoto selected: 2
 ```
+note: `chmod +x pick.sh` to make it executable
