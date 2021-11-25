@@ -1,4 +1,4 @@
-# photographer-helper
+# helper script for lazy (and amateur) photographer like me
 script to move photos around
 
 ```
