@@ -10,7 +10,7 @@ src="./"
 dst=""
 trap printout SIGINT
 function printout() {
-    echo "Total phtoto selected: $count"
+    echo -e "\nTotal phtoto selected: $count"
     exit
 }
 
@@ -20,7 +20,6 @@ echo "|  Press ENTER to use default            |"
 echo "|  Press CTRL + C to exit at any point   |"  
 echo "------------------------------------------"
 
-echo "Example action: cp $/{/prefix}/ "
 echo "Enter file common prefix: "
 read prefix
 echo "Enter file format(e.g. JPG, C3R): "
@@ -29,8 +28,8 @@ if [ "$format" != "" ]
 then
     format=".${format}"
 fi
-echo "Choose operation: cp/mv? Default to cp"
-read method
+# echo "Choose operation: cp/mv? Default to cp"
+# read method
 echo "Enter source directory: Default to ./"
 read src
 if [ "${src: -1}" != "/" ]
@@ -58,7 +57,11 @@ do
     echo $file
     if test -f "$file"
     then
+        # if [ "$method" != "cp" ]; then
+        #     mv "$file" "$dst"
+        # else
         cp "$file" "$dst"
+        # fi
         count=$((count+1))
     else
         echo "File doesn't exist, skipped"
