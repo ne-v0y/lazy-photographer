@@ -12,8 +12,6 @@ Enter file common prefix:
 764A
 Enter file format(e.g. JPG, C3R): 
 JPG
-Choose operation: cp/mv? Default to cp
-
 Enter source directory: Default to ./
 ../PlacesToVisitPeopleToSeeTeaToDrink/CanonR6/2021Jasper
 Enter destination directory: 
