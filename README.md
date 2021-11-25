@@ -8,7 +8,6 @@ script to move photos around
 |  Press ENTER to use default            |
 |  Press CTRL + C to exit at any point   |
 ------------------------------------------
-Example action: cp $/{/prefix}/ 
 Enter file common prefix: 
 764A
 Enter file format(e.g. JPG, C3R): 
