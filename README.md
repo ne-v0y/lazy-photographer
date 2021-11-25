@@ -26,6 +26,6 @@ Enter file value:
 ../PlacesToVisitPeopleToSeeTeaToDrink/CanonR6/2021Jasper/764A9529.JPG
 Enter file value: 
 ^C
-Total phtoto selected: 2
+Total photo selected: 2
 ```
 note: `chmod +x pick.sh` to make it executable
